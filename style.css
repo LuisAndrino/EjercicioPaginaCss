@@ -19,6 +19,16 @@ html{
         width: 100%;
         display: flex;
     }
+
+    nav input{
+        display: none;
+    }
+
+    .icon{
+        
+        width: 30px;
+        height: 30px;
+    }
     
     nav ul{
         width: 100%;
@@ -27,6 +37,28 @@ html{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .menu-Inicio, .menu-Ofertas{
+        background: linear-gradient(to top , #5D6D7E 50%, #D35400 50%);
+        background-size: 100% 200%;
+        background-position: bottom;
+        transition: all 0.5s linear ;
+    }
+
+    .menu-Inicio:hover, .menu-Ofertas:hover{
+        background-position: top;
+    }
+
+    .menu-Tienda , .menu-Ingresar{
+        background: linear-gradient(to top , #5D6D7E 50%, #F1C40F 50%);
+        background-size: 100% 200%;
+        background-position: bottom;
+        transition: all 0.5s linear ;
+    }
+
+    .menu-Tienda:hover, .menu-Ingresar:hover{
+        background-position: top;
     }
 
     #check ~ ul{
@@ -43,13 +75,14 @@ html{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #5D6D7E;
-    }
-    
-    #check:checked ~ nav{
-        height: 1000px;
     }
 
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
 
     .banner{
         width: 100%;
@@ -99,11 +132,19 @@ html{
 
     nav{
         width: 100%;
-        height: 100px;
         display: flex;
     }
-    
 
+    nav input{
+        display: none;
+    }
+
+    .icon{
+        
+        width: 30px;
+        height: 30px;
+    }
+    
     nav ul{
         width: 100%;
         list-style: none;
@@ -111,24 +152,53 @@ html{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        color: white;
+    }
+
+    .menu-Inicio, .menu-Ofertas{
+        background: linear-gradient(to top , #5D6D7E 50%, #D35400 50%);
+        background-size: 100% 200%;
+        background-position: bottom;
+        transition: all 0.5s linear ;
+    }
+
+    .menu-Inicio:hover, .menu-Ofertas:hover{
+        background-position: top;
+    }
+
+    .menu-Tienda , .menu-Ingresar{
+        background: linear-gradient(to top , #5D6D7E 50%, #F1C40F 50%);
+        background-size: 100% 200%;
+        background-position: bottom;
+        transition: all 0.5s linear ;
+    }
+
+    .menu-Tienda:hover, .menu-Ingresar:hover{
+        background-position: top;
+    }
+
+    #check ~ ul{
+        display: none;
+    }
+
+    #check:checked ~ ul{
+        display: flex;
     }
 
     nav ul li{
         width: 100%;
-        height: 400px;
+        height: 100px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #5D6D7E;
     }
 
-    nav ul li:hover{
-        background-color: #F1C40F;
+    nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
     }
-
-
-
-
+    
 
     .banner{
         width: 95%;
