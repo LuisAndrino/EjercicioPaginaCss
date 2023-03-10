@@ -21,20 +21,6 @@ html{
         display: flex;
     }
     
-    #check{
-        display: none;
-    }
-
-    .checkbtn{
-        font-size: 2rem;
-        cursor: pointer;
-    }
-
-      #check:checked~ul {
-        left: 0;
-       
-    }
-
     nav ul{
         width: 100%;
         list-style: none;
